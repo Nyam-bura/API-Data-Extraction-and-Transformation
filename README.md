@@ -1,7 +1,9 @@
 **API DATA EXTRACTION AND TRANSFORMATION PROJECT OVERVIEW**
+
 This project aims to retrieve sample customer records from the JSONPlaceholder users API, inspects and transforms the response, and exports a flattened CSV file.
 
 **Approach and Workflow**
+
 The workflow in starter.py is:
 
 1. Fetch the user list from https://jsonplaceholder.typicode.com/users with a 10-second request timeout.
@@ -16,11 +18,14 @@ The core-field extraction and python data structures demonstrate the required tr
 The final CSV contains the flattened full user records.
 
 **Requirements**
+
 1. Python 3
 2. Internet access to reach the JSONPlaceholder API
 3. Packages listed in requirements.txt (requests and pandas)
    
 **Setup and Execution/Run**
+
+
 From the project directory, create and activate a virtual environment in powershell, then install the dependencies.
 
 **Create a virtual environment**
